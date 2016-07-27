@@ -1,0 +1,41 @@
+{
+  "name": "s3-basic-auth",
+  "version": "1.0.0",
+  "description": "Express middleware to protect an Amazon S3 bucket with Basic Authentication",
+  "keywords": [
+    "basic",
+    "auth",
+    "authentication",
+    "amazon",
+    "s3",
+    "express",
+    "middleware"
+  ],
+  "engines" : {
+    "node" : ">=6.0.0"
+  },
+  "homepage": "https://github.com/aesopwolf/s3-basic-auth",
+  "bugs": "https://github.com/aesopwolf/s3-basic-auth/issues",
+  "license": "ISC",
+  "author": "Aesop Wolf <aesopwolf@gmail.com>",
+  "main": "./lib",
+  "repository": "https://github.com/aesopwolf/s3-basic-auth.git",
+  "scripts": {
+    "test": "mocha --reporter spec --check-leaks --bail test/",
+    "start": "node demo/demo.js",
+    "coverage": "istanbul cover _mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-plugin-import": "^1.11.1",
+    "express": "^4.14.0",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "request": "^2.73.0"
+  }
+}
