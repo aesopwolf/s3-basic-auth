@@ -58,7 +58,7 @@ $ open http://localhost:3000/test.txt
 ```js
 var express = require('express');
 var app = express();
-var s3BasicAuth = require('..');
+var s3BasicAuth = require('s3-basic-auth');
 
 var protectedRedirect = s3BasicAuth({
   key: 'AKIAIOSFODNN7EXAMPLE',
