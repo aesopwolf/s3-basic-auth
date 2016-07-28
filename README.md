@@ -4,6 +4,10 @@ Express middleware for adding Basic Authentication to an Amazon S3 Bucket
 
 Requires Node.js v6.0.0 or greater
 
+[![version](https://img.shields.io/npm/v/s3-basic-auth.svg?maxAge=2592000)](https://img.shields.io/npm/v/s3-basic-auth.svg?maxAge=2592000)
+[![codecov](https://codecov.io/gh/aesopwolf/s3-basic-auth/branch/master/graph/badge.svg)](https://codecov.io/gh/aesopwolf/s3-basic-auth)
+[![travis](https://travis-ci.org/aesopwolf/s3-basic-auth.svg?branch=master)](https://travis-ci.org/aesopwolf/s3-basic-auth.svg)
+
 ## Instructions
 
 This middleware sits in front of an S3 bucket and wraps the bucket with Basic Authentication.
