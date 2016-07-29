@@ -4,9 +4,9 @@ Express middleware for adding Basic Authentication to an Amazon S3 Bucket
 
 Requires Node.js v6.0.0 or greater
 
-[![version](https://img.shields.io/npm/v/s3-basic-auth.svg?maxAge=2592000)](https://img.shields.io/npm/v/s3-basic-auth.svg?maxAge=2592000)
+[![version](https://img.shields.io/npm/v/s3-basic-auth.svg?maxAge=2592000)](https://www.npmjs.com/package/s3-basic-auth)
 [![codecov](https://codecov.io/gh/aesopwolf/s3-basic-auth/branch/master/graph/badge.svg)](https://codecov.io/gh/aesopwolf/s3-basic-auth)
-[![travis](https://travis-ci.org/aesopwolf/s3-basic-auth.svg?branch=master)](https://travis-ci.org/aesopwolf/s3-basic-auth.svg)
+[![travis](https://travis-ci.org/aesopwolf/s3-basic-auth.svg?branch=master)](https://travis-ci.org/aesopwolf/s3-basic-auth)
 
 ## Instructions
 
@@ -122,3 +122,7 @@ He even provides a free hosted service at http://www.s3auth.com/
 Read more on his blog at http://www.yegor256.com/2014/04/21/s3-http-basic-auth.html
 
 Eventually, I would like to convert this to an Amazon Lambda function using [Serverless](http://serverless.com/)
+
+---
+
+**PS** I love feedback, please email me or create a GitHub issue if you'd like me to change functionality or add new features.
