@@ -40,7 +40,7 @@ var protectedProxy = s3BasicAuth({
   host: 'examplebucket.s3.amazonaws.com',
   expires: 10, // seconds that the presigned URL is valid for
   credentials: 'foo:bar', // username:password
-  mode: 'proxy' // 'proxy', 'redirect', 'presignedUrl' are valid options
+  method: 'proxy' // 'proxy', 'redirect', 'presignedUrl' are valid options
 })
 
 app.use('/:path', protectedProxy); // Important: the `:path` param is expected by the middleware
