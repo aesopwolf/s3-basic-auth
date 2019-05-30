@@ -38,6 +38,7 @@ var protectedProxy = s3BasicAuth({
   key: 'AKIAIOSFODNN7EXAMPLE',
   secret: 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
   host: 'examplebucket.s3.amazonaws.com',
+  region: 'us-west-2', // if not specified, defaults to us-east-1
   expires: 10, // seconds that the presigned URL is valid for
   credentials: 'foo:bar', // username:password
   method: 'proxy' // 'proxy', 'redirect', 'presignedUrl' are valid options
@@ -67,6 +68,7 @@ var s3BasicAuth = require('s3-basic-auth');
 var protectedRedirect = s3BasicAuth({
   key: 'AKIAIOSFODNN7EXAMPLE',
   secret: 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
+  region: 'us-west-2',
   host: 'examplebucket.s3.amazonaws.com',
   expires: 10,
   credentials: 'foo:bar',
@@ -76,6 +78,7 @@ var protectedRedirect = s3BasicAuth({
 var protectedpresignedUrl = s3BasicAuth({
   key: 'AKIAIOSFODNN7EXAMPLE',
   secret: 'wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY',
+  region: 'us-west-2',
   host: 'examplebucket.s3.amazonaws.com',
   expires: 86400,
   credentials: 'foo:bar',
