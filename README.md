@@ -119,10 +119,18 @@ they will be able to browse the S3 bucket like a normal website.
 
 ## Related work and future work
 
+### s3auth.com
+
 Yegor Bugayenko has already built the [same proxy service in Java](https://github.com/yegor256/s3auth).
 He even provides a free hosted service at http://www.s3auth.com/
 
 Read more on his blog at http://www.yegor256.com/2014/04/21/s3-http-basic-auth.html
+
+### Lambda@Edge
+
+@lmakarov wrote a great article on how you can achieve the same functionality using Lamba@Edge at https://medium.com/@lmakarov/serverless-password-protecting-a-static-website-in-an-aws-s3-bucket-bfaaa01b8666
+
+### Serverless
 
 Eventually, I would like to convert this to an Amazon Lambda function using [Serverless](http://serverless.com/)
 
